@@ -1,0 +1,352 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+/* line 9, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 30, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 39, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+nav ul {
+  list-style: none;
+}
+
+/* line 43, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 47, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 53, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+/* line 62, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+/* line 69, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 76, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 80, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 85, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+/* line 91, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 100, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_reset.scss */
+input, select {
+  vertical-align: middle;
+}
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+/* line 2, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*  apply a natural box layout model to all elements  */
+/* line 8, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* BODY  */
+/* line 15, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+
+/* HEADER  */
+/* line 23, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+header {
+  margin-top: 44px;
+}
+
+/* line 25, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+header h1 {
+  display: none;
+}
+
+/* line 29, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+header img {
+  padding: 1rem 0 .5rem 2%;
+  display: block;
+}
+
+/* NAVigation  */
+/* line 39, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+nav {
+  background-color: #900;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* line 44, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+nav ul li a {
+  display: block;
+  color: white;
+  padding: .7rem 2%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+/* line 51, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+nav ul li.active a {
+  background-color: #0064a5;
+}
+
+/* line 54, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+nav ul li ul li a {
+  padding-left: 8%;
+}
+
+/* line 57, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+nav button {
+  background-image: url("../images/menuIconWhite.png");
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 32px;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-size: 86%;
+  background-position: center center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 6px 0px 6px 2%;
+}
+
+/* line 71, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+ul.closed {
+  display: none;
+}
+
+/* MAIN  */
+/* line 80, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+main {
+  padding: 1rem 0;
+}
+
+/* line 83, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+main h1 {
+  font-size: 2.5rem;
+  color: #c23e64;
+  padding-left: 2%;
+}
+
+/* line 89, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+main figure.w100 img {
+  width: 100%;
+}
+
+/* line 93, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+main figure.w100 {
+  width: 100%;
+}
+
+/* line 97, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+main .box, main .boxA, main .boxB {
+  margin-top: 1rem;
+  padding: 2rem 2%;
+  text-align: center;
+  line-height: 140%;
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* line 107, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+main .boxA {
+  background-color: #0064a5;
+}
+
+/* line 112, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+main .boxB {
+  background-color: #c23e64;
+}
+
+/* line 117, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+main .box span, main .boxA span, main .boxB span {
+  display: block;
+  font-size: 1rem;
+  line-height: 120%;
+}
+
+/* FOOTER  */
+/* line 127, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+footer {
+  color: #0064a5;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+/* line 134, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_small-default.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (min-width: 35em) {
+  /* NAVigation  */
+  /* line 2, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  nav {
+    position: relative;
+  }
+  /* line 4, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  nav button {
+    display: none;
+  }
+  /* line 5, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  nav ul {
+    margin-left: 2%;
+  }
+  /* line 6, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  nav ul.closed {
+    display: block;
+  }
+  /* line 7, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  nav ul li {
+    float: left;
+  }
+  /* line 10, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  nav ul li a span {
+    display: none;
+  }
+  /* line 13, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding: .7rem .9rem;
+  }
+  /* line 18, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  nav ul li a:hover {
+    background-color: #660000;
+    transition: background 0.3s linear;
+    webkit-transition: background 0.3s linear;
+  }
+  /* line 23, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  nav ul li ul {
+    left: -999em;
+    z-index: 99;
+    background-color: #cc0000;
+    position: absolute;
+    width: 10rem;
+  }
+  /* line 30, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  nav ul li:hover ul {
+    left: auto;
+  }
+  /* line 33, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  nav ul li ul li {
+    float: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  /* HEADER  */
+  /* line 54, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  header {
+    margin-top: 0;
+  }
+  /* MAIN  */
+  /* line 58, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  main h1 {
+    font-size: 5rem;
+  }
+  /* line 59, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  main .box, main .boxA, main .boxB {
+    font-size: 2rem;
+  }
+  /* line 60, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_medium.scss */
+  main .box span, main .boxA span, main .boxB span {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  /* NAVigation  */
+  /* line 2, ../../../../../../../../../../../../../Users/evans/Desktop/DEVELOPER/PORTFOLIO /Personal_Projects/Full-Stack_Travel/sass/_large.scss */
+  ul li a span {
+    display: inline;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
