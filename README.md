@@ -4,4 +4,4 @@ Learning frontend development NAVIGATION
 
 <h1>Responsive web design </h1>
 
-View <a href='https://evans646.github.io/JetAway-Vacation-deals/'> here</a>
+View version one <a href='https://evans646.github.io/JetAway-Vacation-deals/'> here</a>
